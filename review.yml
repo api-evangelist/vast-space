@@ -1,0 +1,90 @@
+aid: vast-space
+name: Vast
+review:
+  question: Does Vast (vastspace.com) expose a documented public developer API?
+  answer: false
+  date: '2026-06-20'
+  reviewer: API Evangelist
+  asyncapiSpecCreated: false
+  asyncapiScopeNote: |
+    No AsyncAPI document was created. Vast publishes no public HTTP API, no
+    WebSocket surface, and no event/streaming interface. There is nothing to
+    model in AsyncAPI.
+findings:
+  summary: |
+    Vast (vastspace.com) is a commercial space company building crewed space
+    stations - Haven-1 (positioned as the first commercial space station,
+    targeting a 2026 launch on a SpaceX Falcon 9) and the larger Haven-2 - and
+    operates the Haven-1 Lab for in-space microgravity research and
+    manufacturing. It is an aerospace hardware and human-spaceflight company.
+
+    A review of the public website found NO documented public developer API:
+    no REST API, no GraphQL, no WebSocket, no SDK, and no developer portal or
+    API reference. The cataloged surfaces (Haven-1, Haven-2, Haven-1 Lab, and
+    Payload & Research Opportunities) are informational product, research, and
+    partnership pages. Payload and research access is arranged through a
+    Request for Proposals (RFP) process and direct payload-partner agreements,
+    not through a self-serve programmable API.
+
+    The OpenAPI document at openapi/vast-space-openapi.yml is intentionally
+    empty (paths: {}) and carries a description explaining the absence of any
+    public API. The plans, rate-limits, and finops artifacts are placeholders
+    marked reconciled: false documenting the same finding.
+  disambiguation: |
+    The "Vast" name is shared by multiple unrelated companies. This catalog
+    covers ONLY Vast the space-station company at vastspace.com. It is NOT:
+      - Vast.ai (vast.ai) - a GPU cloud / compute marketplace that does have a
+        public API and developer documentation. Different company.
+      - VAST Data (vastdata.com) - an enterprise AI data and storage platform.
+        Different company.
+    Neither Vast.ai nor VAST Data is covered here.
+  transports:
+    - protocol: REST
+      scheme: https
+      documented: false
+      note: No public REST API is documented on vastspace.com.
+    - protocol: GraphQL
+      documented: false
+      note: No GraphQL endpoint is documented.
+    - protocol: WebSocket
+      scheme: wss
+      documented: false
+      note: No WebSocket or streaming surface is documented.
+  surfacesDocumented:
+    - name: Haven-1 Station
+      url: https://www.vastspace.com/haven-1
+      type: Informational
+    - name: Haven-2 Station
+      url: https://www.vastspace.com/haven-2
+      type: Informational
+    - name: Haven-1 Lab
+      url: https://www.vastspace.com/haven-1-lab
+      type: Informational
+    - name: Payload & Research Opportunities (RFP / payload partners)
+      url: https://www.vastspace.com/haven-1-lab
+      type: Informational
+sources:
+  - url: https://www.vastspace.com/
+    type: Website
+    note: Lists Haven-1, Haven-2, Haven Demo, Haven-1 Lab, satellites, careers, contact. No API or developer portal mentioned.
+  - url: https://www.vastspace.com/haven-1
+    type: Documentation
+    note: Haven-1 product/program page. Informational, no API.
+  - url: https://www.vastspace.com/haven-1-lab
+    type: Documentation
+    note: Haven-1 Lab payload facility; up to 10 payloads, 30 kg / 100 W each. Onboarding via partnership/RFP, not an API.
+  - url: https://spacenews.com/vast-signs-three-more-payload-partners-for-haven-1/
+    type: News
+    note: Confirms payload-partner program model (JAMSS, Interstellar Lab, Exobiosphere, Redwire, Yuri).
+actions:
+  openapiPath: openapi/vast-space-openapi.yml
+  apisYmlUpdated: true
+  reason: |
+    No public API surface exists. An intentionally empty OpenAPI (paths: {})
+    was authored with a description documenting the absence of any public API
+    and the disambiguation from Vast.ai and VAST Data. Plans, rate-limits, and
+    finops placeholders were created with reconciled: false. No AsyncAPI was
+    created because no event/streaming surface exists.
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com

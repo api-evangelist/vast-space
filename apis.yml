@@ -1,0 +1,116 @@
+aid: vast-space
+url: https://raw.githubusercontent.com/api-evangelist/vast-space/refs/heads/main/apis.yml
+name: Vast
+kind: company
+description: Vast is a commercial space company building next-generation crewed space
+  stations, beginning with Haven-1 (the first commercial space station, targeting a
+  2026 launch on a SpaceX Falcon 9) and the larger Haven-2. Vast is an aerospace
+  hardware and human-spaceflight company; as of this writing it does not publish a
+  public developer API. The surfaces catalogued here are informational product,
+  research, and partnership pages rather than programmable HTTP APIs.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+tags:
+- Space
+- Aerospace
+- Space Station
+- Human Spaceflight
+- Microgravity
+- Research
+- Informational
+created: '2026-06-20'
+modified: '2026-06-20'
+specificationVersion: '0.19'
+apis:
+- aid: vast-space:haven-1-station
+  name: Vast Haven-1 Station
+  tags:
+  - Space Station
+  - Haven-1
+  - Human Spaceflight
+  - Informational
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+  humanURL: https://www.vastspace.com/haven-1
+  properties:
+  - url: https://www.vastspace.com/haven-1
+    type: Documentation
+  - url: openapi/vast-space-openapi.yml
+    type: OpenAPI
+  description: Informational product surface for Haven-1, billed as the world's first
+    commercial space station - a standalone crewed station designed to host four
+    crew with 45 cubic meters of habitable volume. This is a hardware/spaceflight
+    program page, not a programmable API. No public developer endpoints are
+    documented.
+- aid: vast-space:haven-2-station
+  name: Vast Haven-2 Station
+  tags:
+  - Space Station
+  - Haven-2
+  - Low Earth Orbit
+  - Informational
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+  humanURL: https://www.vastspace.com/haven-2
+  properties:
+  - url: https://www.vastspace.com/haven-2
+    type: Documentation
+  - url: openapi/vast-space-openapi.yml
+    type: OpenAPI
+  description: Informational product surface for Haven-2, a larger multi-module
+    station positioned as a successor to the International Space Station for
+    continuous human presence in low-Earth orbit. Hardware/spaceflight program
+    page, not a programmable API. No public developer endpoints are documented.
+- aid: vast-space:haven-1-lab
+  name: Vast Haven-1 Lab
+  tags:
+  - Microgravity
+  - Research
+  - Manufacturing
+  - Informational
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+  humanURL: https://www.vastspace.com/haven-1-lab
+  properties:
+  - url: https://www.vastspace.com/haven-1-lab
+    type: Documentation
+  - url: openapi/vast-space-openapi.yml
+    type: OpenAPI
+  description: Informational surface for the Haven-1 Lab, an in-space microgravity
+    research and manufacturing facility supporting up to ten payloads, each up to
+    30 kilograms and 100 watts of continuous power. Payload onboarding is handled
+    through partnerships and proposals, not a self-serve public API.
+- aid: vast-space:payload-research-opportunities
+  name: Vast Payload & Research Opportunities
+  tags:
+  - Payload
+  - Research
+  - RFP
+  - Partnerships
+  - Informational
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+  humanURL: https://www.vastspace.com/haven-1-lab
+  properties:
+  - url: https://www.vastspace.com/haven-1-lab
+    type: Documentation
+  - url: https://www.vastspace.com/contact
+    type: Contact
+  - url: openapi/vast-space-openapi.yml
+    type: OpenAPI
+  description: Informational surface covering Vast's Request for Proposals (RFP) and
+    payload-partner program for research on Haven-1 across life sciences, physical
+    sciences, technology demonstrations, biotechnology, and STEM education.
+    Onboarding is via direct contact and proposal review, not a programmable HTTP
+    API.
+common:
+- type: LinkedIn
+  url: https://www.linkedin.com/company/vast-space
+- type: Website
+  url: https://www.vastspace.com/
+- type: Documentation
+  url: https://www.vastspace.com/haven-1
+- type: Plans
+  url: plans/vast-space-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/vast-space-rate-limits.yml
+- type: FinOps
+  url: finops/vast-space-finops.yml
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com

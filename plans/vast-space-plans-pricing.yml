@@ -1,0 +1,59 @@
+specification: API Commons Plans
+specificationVersion: '0.1'
+schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/Plans
+provider: Vast
+providerId: vast-space
+created: '2026-06-20'
+modified: '2026-06-20'
+reconciled: false
+tags:
+- Space
+- Aerospace
+- Space Station
+- Microgravity
+- Research
+- Plans
+- Informational
+description: >-
+  Vast does not publish a public, self-serve, usage-metered API pricing model.
+  As an aerospace hardware and human-spaceflight company, Vast monetizes
+  through space-station programs (Haven-1, Haven-2), Haven-1 Lab payload slots,
+  and research/partnership agreements negotiated directly. Payload access is
+  arranged via Request for Proposals (RFP) and payload-partner contracts rather
+  than published tiers. No public API plans exist to reconcile.
+notes: >-
+  This artifact is a placeholder documenting the absence of public API pricing.
+  Payload-partner and research engagement terms are negotiated directly with
+  Vast; consult the Haven-1 Lab page and contact Vast for current commercial
+  terms. Do not confuse with Vast.ai (GPU cloud) or VAST Data (storage), which
+  are unrelated companies.
+sources:
+- https://www.vastspace.com/
+- https://www.vastspace.com/haven-1-lab
+- https://www.vastspace.com/contact
+plans:
+- id: vast-space-payload-partnership
+  name: Payload & Research Partnership
+  type: enterprise
+  description: >-
+    Custom payload slots and research engagements on the Haven-1 Lab, arranged
+    through Vast's Request for Proposals (RFP) and direct payload-partner
+    agreements. Not a public, self-serve, or usage-metered API plan.
+  entries:
+  - label: Payload Partnership Agreement
+    name: payload_partnership
+    type: flat
+    metric: contract
+    limit: -1
+    timeFrame: year
+    geo: global
+    unit: 1
+    price: contact Vast
+    userMultiplied: false
+  elements:
+  - name: Haven-1 Lab Payload Slot
+  - name: Microgravity Research Access
+  - name: Custom Mission Integration
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com

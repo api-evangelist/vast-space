@@ -1,0 +1,48 @@
+specification: API Commons Rate Limits
+specificationVersion: '0.1'
+schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/RateLimits
+provider: Vast
+providerId: vast-space
+created: '2026-06-20'
+modified: '2026-06-20'
+reconciled: false
+tags:
+- Space
+- Aerospace
+- Space Station
+- Research
+- Rate Limiting
+- Quotas
+- Informational
+description: >-
+  Vast does not publish a public developer API, so there are no documented HTTP
+  rate limits, quotas, or throttling policies to catalog. The constraining
+  "limits" in Vast's domain are physical payload constraints on the Haven-1 Lab
+  (up to 10 payloads, each up to 30 kg and 100 W of continuous power) rather
+  than API request quotas. This artifact records the absence of API rate limits.
+notes: >-
+  Placeholder documenting that no public API rate limits exist. Physical payload
+  capacity figures are sourced from Vast's Haven-1 Lab materials and are not API
+  quotas. Not to be confused with Vast.ai (GPU cloud) or VAST Data (storage).
+sources:
+- https://www.vastspace.com/haven-1-lab
+- https://www.vastspace.com/
+responseCodes:
+  throttled: not applicable
+limits:
+- name: Public API Rate Limit
+  scope: not applicable
+  metric: requests
+  limit: no public API documented
+  notes: Vast exposes no public developer API, so no HTTP request rate limits apply.
+- name: Haven-1 Lab Payload Capacity
+  scope: facility
+  metric: payloads
+  limit: up to 10 payloads
+  notes: Physical facility constraint, not an API quota. Each payload up to 30 kg and 100 W continuous power.
+policies:
+- name: Not Applicable
+  description: No API throttling or backoff policy exists because Vast publishes no public API.
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com

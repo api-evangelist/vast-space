@@ -1,0 +1,52 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Vast (Informational - No Public API)",
+    "version": "1.0",
+    "description": "Vast (vastspace.com) is a commercial space-station company. It publishes no public developer API, so this collection contains no executable API requests - only links to informational product and research surfaces. Not to be confused with Vast.ai (GPU cloud) or VAST Data (storage)."
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Informational Surfaces",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "Haven-1 Station (informational page)",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://www.vastspace.com/haven-1"
+          },
+          "docs": "Haven-1 product/program page. Informational only; not a programmable API endpoint."
+        },
+        {
+          "info": {
+            "name": "Haven-2 Station (informational page)",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://www.vastspace.com/haven-2"
+          },
+          "docs": "Haven-2 product/program page. Informational only; not a programmable API endpoint."
+        },
+        {
+          "info": {
+            "name": "Haven-1 Lab (informational page)",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://www.vastspace.com/haven-1-lab"
+          },
+          "docs": "Haven-1 Lab payload facility page. Payload onboarding via partnership/RFP, not an API."
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

@@ -1,0 +1,99 @@
+{
+  "info": {
+    "_postman_id": "a1f6c3d2-9b4e-4c8a-8f2d-7e1c0b5a4d33",
+    "name": "Vast (Informational - No Public API)",
+    "description": "Vast (vastspace.com) is a commercial space-station company. It publishes no public developer API, so this collection contains no executable API requests - only links to informational product and research surfaces. Not to be confused with Vast.ai (GPU cloud) or VAST Data (storage).",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "id": "f1a2b3c4-0001-4a11-9c22-0a1b2c3d4e01",
+      "name": "Informational Surfaces",
+      "description": {
+        "content": "Informational product and research pages. None of these are programmable API endpoints; Vast publishes no public developer API.",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "f1a2b3c4-0002-4a11-9c22-0a1b2c3d4e02",
+          "name": "Haven-1 Station (informational page)",
+          "request": {
+            "name": "Haven-1 Station (informational page)",
+            "description": {
+              "content": "Haven-1 product/program page. Informational only; not a programmable API endpoint.",
+              "type": "text/plain"
+            },
+            "url": {
+              "raw": "https://www.vastspace.com/haven-1",
+              "protocol": "https",
+              "host": [
+                "www",
+                "vastspace",
+                "com"
+              ],
+              "path": [
+                "haven-1"
+              ]
+            },
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        },
+        {
+          "id": "f1a2b3c4-0003-4a11-9c22-0a1b2c3d4e03",
+          "name": "Haven-2 Station (informational page)",
+          "request": {
+            "name": "Haven-2 Station (informational page)",
+            "description": {
+              "content": "Haven-2 product/program page. Informational only; not a programmable API endpoint.",
+              "type": "text/plain"
+            },
+            "url": {
+              "raw": "https://www.vastspace.com/haven-2",
+              "protocol": "https",
+              "host": [
+                "www",
+                "vastspace",
+                "com"
+              ],
+              "path": [
+                "haven-2"
+              ]
+            },
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        },
+        {
+          "id": "f1a2b3c4-0004-4a11-9c22-0a1b2c3d4e04",
+          "name": "Haven-1 Lab (informational page)",
+          "request": {
+            "name": "Haven-1 Lab (informational page)",
+            "description": {
+              "content": "Haven-1 Lab payload facility page. Payload onboarding via partnership/RFP, not an API.",
+              "type": "text/plain"
+            },
+            "url": {
+              "raw": "https://www.vastspace.com/haven-1-lab",
+              "protocol": "https",
+              "host": [
+                "www",
+                "vastspace",
+                "com"
+              ],
+              "path": [
+                "haven-1-lab"
+              ]
+            },
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        }
+      ],
+      "event": []
+    }
+  ]
+}
