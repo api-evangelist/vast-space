@@ -99,6 +99,8 @@ apis:
     Onboarding is via direct contact and proposal review, not a programmable HTTP
     API.
 common:
+- type: DomainSecurity
+  url: security/vast-space-domain-security.yml
 - type: LinkedIn
   url: https://www.linkedin.com/company/vast-space
 - type: Website
