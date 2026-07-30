@@ -8,7 +8,19 @@ description: Vast is a commercial space company building next-generation crewed 
   hardware and human-spaceflight company; as of this writing it does not publish a
   public developer API. The surfaces catalogued here are informational product,
   research, and partnership pages rather than programmable HTTP APIs.
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vast-space.png
 tags:
 - Space
 - Aerospace
