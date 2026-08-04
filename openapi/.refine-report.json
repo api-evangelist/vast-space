@@ -1,0 +1,14 @@
+{
+  "provider": "vast-space",
+  "sources": [
+    "vast-space-openapi.yml"
+  ],
+  "outputs": [],
+  "archived": [
+    "archived vast-space-openapi.yml"
+  ],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}
