@@ -45,7 +45,7 @@ apis:
   properties:
   - url: https://www.vastspace.com/haven-1
     type: Documentation
-  - url: openapi/vast-space-openapi.yml
+  - url: openapi/_original/vast-space-openapi.yml
     type: OpenAPI
   description: Informational product surface for Haven-1, billed as the world's first
     commercial space station - a standalone crewed station designed to host four
@@ -64,7 +64,7 @@ apis:
   properties:
   - url: https://www.vastspace.com/haven-2
     type: Documentation
-  - url: openapi/vast-space-openapi.yml
+  - url: openapi/_original/vast-space-openapi.yml
     type: OpenAPI
   description: Informational product surface for Haven-2, a larger multi-module
     station positioned as a successor to the International Space Station for
@@ -82,7 +82,7 @@ apis:
   properties:
   - url: https://www.vastspace.com/haven-1-lab
     type: Documentation
-  - url: openapi/vast-space-openapi.yml
+  - url: openapi/_original/vast-space-openapi.yml
     type: OpenAPI
   description: Informational surface for the Haven-1 Lab, an in-space microgravity
     research and manufacturing facility supporting up to ten payloads, each up to
@@ -103,7 +103,7 @@ apis:
     type: Documentation
   - url: https://www.vastspace.com/contact
     type: Contact
-  - url: openapi/vast-space-openapi.yml
+  - url: openapi/_original/vast-space-openapi.yml
     type: OpenAPI
   description: Informational surface covering Vast's Request for Proposals (RFP) and
     payload-partner program for research on Haven-1 across life sciences, physical
