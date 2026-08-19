@@ -31,7 +31,7 @@ tags:
 - Informational
 created: '2026-06-20'
 modified: '2026-06-20'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
 - aid: vast-space:haven-1-station
   name: Vast Haven-1 Station
