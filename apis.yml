@@ -41,7 +41,7 @@ tags:
 - Research
 - Informational
 created: '2026-06-20'
-modified: '2026-06-20'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis:
 - aid: vast-space:haven-1-station
@@ -122,6 +122,8 @@ apis:
     Onboarding is via direct contact and proposal review, not a programmable HTTP
     API.
 common:
+- url: https://www.vastspace.com/updates
+  type: Blog
 - type: DomainSecurity
   url: security/vast-space-domain-security.yml
 - type: LinkedIn
