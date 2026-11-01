@@ -1,4 +1,4 @@
-# Vast (vast-space)
+# Vast
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,121 +66,110 @@
 
 Vast is a commercial space company building next-generation crewed space stations, beginning with Haven-1 (the first commercial space station, targeting a 2026 launch on a SpaceX Falcon 9) and the larger Haven-2. Vast is an aerospace hardware and human-spaceflight company; as of this writing it does not publish a public developer API. The surfaces catalogued here are informational product, research, and partnership pages rather than programmable HTTP APIs.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/vast-space/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/vast-space/refs/heads/main/apis.yml)
+**Areas:** Space · Aerospace · Space Station · Human Spaceflight · Microgravity · Research · Informational
 
-## Tags
+## Vast on APIs.io
 
-- Space
-- Aerospace
-- Space Station
-- Human Spaceflight
-- Microgravity
-- Research
-- Informational
+Everything profiled for Vast is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/vast-space/](https://apis.io/providers/vast-space/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (4)
 
-- **Created:** 2026-06-20
-- **Modified:** 2026-06-20
+- [Vast Haven-1 Station](https://apis.io/apis/vast-space/haven-1-station/) — Informational product surface for Haven-1, billed as the world's first commercial space station - a standalone crewed station designed to host four crew…
+- [Vast Haven-2 Station](https://apis.io/apis/vast-space/haven-2-station/) — Informational product surface for Haven-2, a larger multi-module station positioned as a successor to the International Space Station for continuous human…
+- [Vast Haven-1 Lab](https://apis.io/apis/vast-space/haven-1-lab/) — Informational surface for the Haven-1 Lab, an in-space microgravity research and manufacturing facility supporting up to ten payloads, each up to 30…
+- [Vast Payload & Research Opportunities](https://apis.io/apis/vast-space/payload-research-opportunities/) — Informational surface covering Vast's Request for Proposals (RFP) and payload-partner program for research on Haven-1 across life sciences, physical…
 
-## APIs
+### Published properties
 
-### Vast Haven-1 Station
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-Informational product surface for Haven-1, billed as the world's first commercial space station - a standalone crewed station designed to host four crew with 45 cubic meters of habitable volume. This is a hardware/spaceflight program page, not a programmable API. No public developer endpoints are documented.
+#### Collections (1)
 
-- **Human URL:** [https://www.vastspace.com/haven-1](https://www.vastspace.com/haven-1)
+Postman and Open Collection request collections.
 
-#### Tags
+- [Vast (Informational - No Public API)](https://apis.io/collections/vast-space/open-vast-space/)
 
-- Space Station
-- Haven-1
-- Human Spaceflight
-- Informational
+#### Security (1)
 
-#### Properties
+Authentication, trust centre, and vulnerability disclosure.
 
-- [Documentation](https://www.vastspace.com/haven-1)
-- [OpenAPI](openapi/vast-space-openapi.yml) — [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)
-- [Postman Collection](collections/vast-space.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/vast-space.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
+- [Vast Space Domain Security](https://apis.io/security/vast-space/vast-space-domain-security/)
 
-### Vast Haven-2 Station
+#### Plans and pricing (1)
 
-Informational product surface for Haven-2, a larger multi-module station positioned as a successor to the International Space Station for continuous human presence in low-Earth orbit. Hardware/spaceflight program page, not a programmable API. No public developer endpoints are documented.
+Published plans, tiers and prices.
 
-- **Human URL:** [https://www.vastspace.com/haven-2](https://www.vastspace.com/haven-2)
+- [Vast Space Plans Pricing](https://apis.io/plans/vast-space/vast-space-plans-pricing/)
 
-#### Tags
+#### Rate limits (1)
 
-- Space Station
-- Haven-2
-- Low Earth Orbit
-- Informational
+Published request limits.
 
-#### Properties
+- [Vast Space Rate Limits](https://apis.io/rate-limits/vast-space/vast-space-rate-limits/)
 
-- [Documentation](https://www.vastspace.com/haven-2)
-- [OpenAPI](openapi/vast-space-openapi.yml) — [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)
-- [Postman Collection](collections/vast-space.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/vast-space.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
+#### FinOps (1)
 
-### Vast Haven-1 Lab
+What the API costs to run, by operation.
 
-Informational surface for the Haven-1 Lab, an in-space microgravity research and manufacturing facility supporting up to ten payloads, each up to 30 kilograms and 100 watts of continuous power. Payload onboarding is handled through partnerships and proposals, not a self-serve public API.
+- [Vast Space Finops](https://apis.io/finops/vast-space/vast-space-finops/)
 
-- **Human URL:** [https://www.vastspace.com/haven-1-lab](https://www.vastspace.com/haven-1-lab)
+## Where to find this API
 
-#### Tags
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-- Microgravity
-- Research
-- Manufacturing
-- Informational
-
-#### Properties
-
-- [Documentation](https://www.vastspace.com/haven-1-lab)
-- [OpenAPI](openapi/vast-space-openapi.yml) — [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)
-- [Postman Collection](collections/vast-space.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/vast-space.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
-
-### Vast Payload & Research Opportunities
-
-Informational surface covering Vast's Request for Proposals (RFP) and payload-partner program for research on Haven-1 across life sciences, physical sciences, technology demonstrations, biotechnology, and STEM education. Onboarding is via direct contact and proposal review, not a programmable HTTP API.
-
-- **Human URL:** [https://www.vastspace.com/haven-1-lab](https://www.vastspace.com/haven-1-lab)
-
-#### Tags
-
-- Payload
-- Research
-- RFP
-- Partnerships
-- Informational
-
-#### Properties
-
-- [Documentation](https://www.vastspace.com/haven-1-lab)
-- [Contact](https://www.vastspace.com/contact)
-- [OpenAPI](openapi/vast-space-openapi.yml) — [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)
-- [Postman Collection](collections/vast-space.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/vast-space.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
-
-## Common Properties
-
-- [LinkedIn](https://www.linkedin.com/company/vast-space)
 - [Website](https://www.vastspace.com/)
 - [Documentation](https://www.vastspace.com/haven-1)
-- [Plans](plans/vast-space-plans-pricing.yml)
-- [Rate Limits](rate-limits/vast-space-rate-limits.yml)
-- [Fin Ops](finops/vast-space-finops.yml)
+- [Blog](https://www.vastspace.com/updates)
 
-## Note on Public API Availability
+## API Evangelist rating
 
-Vast (vastspace.com) is an aerospace hardware and human-spaceflight company. As of the catalog date it exposes no documented public developer API, REST API, SDK, or developer portal. The entries above are informational product, research, and partnership surfaces. Note also the disambiguation from unrelated companies that share the "Vast" name: **Vast.ai** (a GPU cloud marketplace) and **VAST Data** (an enterprise AI data/storage platform) are different companies and are not covered by this catalog.
+**Kin Score 14.7** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-## Maintainers
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 25.1 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 5.3 |
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Agent readiness 13.6** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/vast-space/](https://apis.io/providers/vast-space/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Vast: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/vast-space/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
